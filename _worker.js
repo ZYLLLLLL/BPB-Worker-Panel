@@ -4327,7 +4327,7 @@ var worker_default = {
                 "Content-Type": "text/plain"
               }
             });
-          default:
+         // default:
             url.hostname = "www.speedtest.net";
             url.protocol = "https:";
             request = new Request(url, request);
